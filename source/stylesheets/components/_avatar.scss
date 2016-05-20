@@ -3,7 +3,7 @@
   border-radius: 50%;
 }
 .avatar-large {
-  width: 50px;
+  width: 200px;
   border-radius: 50%;
 }
 .avatar-bordered {
@@ -13,8 +13,27 @@
   border: white 1px solid;
 }
 .avatar-square {
-  width: 30px;
+  width: 62px;
+  height: 50px;
   border-radius: 0px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
   border: white 1px solid;
+}
+
+.circular {
+width: 190px;
+height: 190px;
+border-radius: 120px;
+-webkit-border-radius: 120px;
+-moz-border-radius: 120px;
+background: url(/sites/default/files/photo.jpg) no-repeat;
+box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+text-align:center;
+}
+
+.display-content {
+  display: flex;
+  justify-content: center;
 }
