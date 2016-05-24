@@ -1,12 +1,30 @@
+.top-card {
+  padding-top:26px;
+}
 .card {
-  height: 175px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-  background-size: cover !important;
-  color: white;
-  position: relative;
-  box-shadow: 3px 3px 2px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  display: flex;
+    height: 175px;
+    /* text-shadow: 0 0px 1px rgba(0, 0, 0, 0.6); */
+    background-size: cover !important;
+    font-size: larger;
+    font-weight: 700;
+    color: black;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0.8;
+    transform: scale(1);
+    transition: transform 300ms ease;
+    &:hover {
+      transform: scale(1.02);
+      opacity: 1;
+      color:black;
+      text-decoration: none;
+    }
+
 }
 .card-user {
   position: absolute;
@@ -14,16 +32,18 @@
   top: 10px;
 }
 .card-category {
+  font-family: raleway;
   position: absolute;
   top: 10px;
   left: 10px;
-  font-size: 10px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 .card-description {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  color: grey;
 }
 .card-description h2 {
   font-size: 24px;
@@ -40,6 +60,37 @@
   background: black;
   opacity: 0;
 }
-.card-link:hover{
-  opacity: 0.1;
+
+.vesalius {
+    width: 143px;
+    height: 65px;
+    margin-left: 148px;
+    margin-top: 3px;
+}
+.adswizz {
+    width: 121px;
+    height: 46px;
+    margin-top: 6px;
+    margin-left: 166px;
+}
+
+.grameen {
+    width: 92px;
+    height: 64px;
+    margin-left: 192px;
+    margin-top: 6px;
+}
+
+.mazzei {
+    width: 97px;
+    height: 61px;
+    margin-left: 187px;
+    margin-top: 6px;
+}
+
+.ipm {
+      width: 84px;
+    height: 58px;
+    margin-left: 197px;
+    margin-top: 6px;
 }
