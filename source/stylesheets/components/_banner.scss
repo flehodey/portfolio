@@ -1,6 +1,6 @@
 .banner {
   left: auto !important;
-  background-image: url("../../images/background.jpg");
+  background-image:linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url("../../images/background3.jpg");
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -10,7 +10,7 @@
   padding: 0px;
   z-index: -999999;
   position: fixed;
-  opacity: 0.5;
+  opacity: 1;
 }
 .banner h1 {
   font-size: 50px;
@@ -30,7 +30,7 @@
 .profile-header-wrapper {
 
   padding: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   background-color: white;
 
 }
@@ -38,4 +38,12 @@
 
 .page_headers {
   margin-left: 120px;
+  color: white;
+  padding: 10px;
+}
+
+.page_skills {
+  margin-left: 0px;
+  color:white;
+  padding-bottom: 30px;
 }
